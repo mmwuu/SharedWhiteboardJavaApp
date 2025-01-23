@@ -12,7 +12,8 @@ import java.rmi.registry.Registry;
 public class CreateWhiteBoard {
     public static void main(String[] args) {
         if (args.length != 3) {
-            System.out.println("The command is: java CreateWhiteBoard <serverIPAddress> <serverPort> username");
+            System.out.println(
+                    "Ensure: javac CreateWhiteBoard.java, then the command is: java CreateWhiteBoard <serverIPAddress> <serverPort> username");
             return;
         }
 
